@@ -1,13 +1,79 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+}
+figure {
+  margin: 0 0 2rem 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+img {
+  overflow: auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Permanent+Marker");
+
+h1 {
+  letter-spacing: 0.5rem;
+  font-size: 4rem;
+  /* text-decoration: underline; */
+  text-transform: uppercase;
+  margin: 1rem;
+}
+
+p {
+  font-size: 1.3rem;
+  text-align: left;
+  margin: 2rem;
+  /* letter-spacing: 0.2rem; */
+}
+
+.field {
+  font-weight: bold;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono");
+
+figcaption {
+  color: #000;
+  letter-spacing: 0.2rem;
+}
+
+.app {
+  font-family: "Roboto Mono", sans-serif;
+  text-align: center;
+  margin: 0.5rem auto;
+  width: auto;
+  max-width: 45rem;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  background-color: white;
+  color: black;
+  border: 0.1rem solid #000000;
+  text-transform: uppercase;
+  width: 6rem;
+  height: 3rem;
+  margin: 1.5rem;
+}
+
+button:hover {
+  background-color: #777777;
+  color: white;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
