@@ -24,15 +24,15 @@ export const figures = [
     caption: "Acrylic painting",
   },
   {
-    id: 3,
-    src: Matthew,
-    alt: "Matthew Calane",
-    caption: "Digital draw",
-  },
-  {
     id: 4,
     src: Disco,
     alt: "Disco",
     caption: "Acrylic painting",
+  },
+  {
+    id: 3,
+    src: Matthew,
+    alt: "Matthew Calane",
+    caption: "Digital draw",
   },
 ]
