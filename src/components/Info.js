@@ -8,9 +8,8 @@ const Info = () => (
     <br />
     <span className="field">Who:</span> Amateur freetime artist.
     <br />
-    <span className="field">What:</span> I do all of my works with acrylic
-    paints, aquarelle paints and some of the works are done with a drawing
-    board.
+    <span className="field">What:</span> I do acrylic and watercolor paintings
+    and some digital art with drawing board.
   </p>
 )
 
