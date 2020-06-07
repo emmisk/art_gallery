@@ -12,6 +12,8 @@ function App() {
   const toggleContact = () =>
     show === "contact" ? setShow(null) : setShow("contact")
 
+  const scrollTop = () => window.scrollTo({ top: 0, behavior: "smooth" })
+
   return (
     <div className="app">
       <Header />
@@ -22,6 +24,7 @@ function App() {
       {show === "info" && <Info />}
       {show === "contact" && <Contact />}
       <Gallery />
+      <Button handleClick={scrollTop} text="Scroll top" />
     </div>
   )
 }
