@@ -1,23 +1,20 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono");
+
 body {
   margin: 0;
 }
+
 figure {
   margin: 0 0 2rem 0;
 }
 
 img {
-  overflow: auto;
-  margin-left: auto;
-  margin-right: auto;
   width: 100%;
 }
-
-@import url("https://fonts.googleapis.com/css?family=Permanent+Marker");
 
 h1 {
   letter-spacing: 0.5rem;
   font-size: 4rem;
-  /* text-decoration: underline; */
   text-transform: uppercase;
   margin: 1rem;
 }
@@ -26,14 +23,11 @@ p {
   font-size: 1.3rem;
   text-align: left;
   margin: 2rem;
-  /* letter-spacing: 0.2rem; */
 }
 
 .field {
   font-weight: bold;
 }
-
-@import url("https://fonts.googleapis.com/css?family=Roboto+Mono");
 
 figcaption {
   color: #000;
