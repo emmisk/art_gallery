@@ -3,6 +3,8 @@ import Purple_child from "./images/purple_child.jpg"
 import Disco from "./images/disco.jpg"
 import Matthew from "./images/matthew_calane.jpg"
 import Cyclist from "./images/cyclist.jpg"
+import Twins_yellow from "./images/twins_yellow.jpg"
+import Twins_blue from "./images/twins_blue.jpg"
 
 export const figures = [
   {
@@ -34,5 +36,17 @@ export const figures = [
     src: Matthew,
     alt: "Matthew Calane",
     caption: "Digital draw",
+  },
+  {
+    id: 4,
+    src: Twins_yellow,
+    alt: "Yellow and twins",
+    caption: "Acrylic painting",
+  },
+  {
+    id: 5,
+    src: Twins_blue,
+    alt: "Blue and twins",
+    caption: "Acrylic painting",
   },
 ]
