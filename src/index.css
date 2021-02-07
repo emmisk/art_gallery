@@ -71,13 +71,14 @@ button {
 }
 
 button:hover {
-  /* background-color: #9a3c88; */
   color: #ffffff;
   border: 0.1rem solid #ffffff;
 }
 
 button:focus {
   color: #ffffff;
+  border: 0.1rem solid #ffffff;
+  outline: none;
 }
 
 a {
