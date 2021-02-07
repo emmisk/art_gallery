@@ -1,15 +1,16 @@
-import React from "react"
-import Figure from "./Figure"
-import { figures } from "../figures"
+import React, { useState } from "react"
 import Button from "./Button"
+import Paints from "./Paints"
 
 const Gallery = () => {
-  const figureComponents = figures.map((figure) => (
-    <Figure key={figure.id} figure={figure} />
-    ))
-    const scrollTop = () => window.scrollTo({ top: 0, behavior: "smooth" })
-    return <main>{figureComponents}
-    <Button handleClick={scrollTop} text="Scroll top" />
+  const [show, setShow] = useState(null)
+
+  const togglePaints = () => (show === "paints" ? setShow(null) : setShow("paints"))
+    return <main>
+    <div className="buttons">
+    <Button handleClick={togglePaints} text="paints & draws" />
+  </div>
+  {show === "paints" && <Paints />}
     </main>
   }
 
