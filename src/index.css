@@ -4,6 +4,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap");
 body {
   margin: 0;
+  background-color: #000000;
 }
 
 figure {
@@ -17,7 +18,8 @@ img {
 
 h1 {
   letter-spacing: 0.5rem;
-  font-size: 2rem;
+  color: #fff800;
+  font-size: 3rem;
   text-transform: uppercase;
   margin: 1rem;
   font-family: "Big Shoulders Display", Sans-Serif;
@@ -31,6 +33,7 @@ p {
   font-size: 1.3rem;
   text-align: left;
   margin: 2rem;
+  color: #ffffff;
 }
 
 .field {
@@ -38,7 +41,7 @@ p {
 }
 
 figcaption {
-  color: #000;
+  color: #ffffff;
   letter-spacing: 0.2rem;
 }
 
@@ -57,25 +60,32 @@ figcaption {
 }
 
 button {
-  background-color: #ffffff;
-  color: black;
-  border: 0.1rem solid #000000;
+  background-color: #000000;
+  color: #fff800;
+  border: 0.1rem solid #9a3c88;
   text-transform: uppercase;
   width: 6rem;
   height: 3rem;
   margin: 1.5rem;
+  border-radius: 2px;
 }
 
 button:hover {
-  background-color: #fff800;
-  color: #000000;
+  /* background-color: #9a3c88; */
+  color: #ffffff;
+  border: 0.1rem solid #ffffff;
+}
+
+button:focus {
+  color: #ffffff;
 }
 
 a {
-  color: #000;
+  color: #ffffff;
   text-decoration: none;
 }
 
 a:hover {
   text-decoration: underline;
+  color: #ffffff;
 }
