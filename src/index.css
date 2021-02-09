@@ -16,6 +16,11 @@ img {
   height: 100%;
 }
 
+.profileImage {
+  width: 50%;
+  height: auto;
+}
+
 h1 {
   letter-spacing: 0.5rem;
   color: #fff800;
@@ -23,6 +28,23 @@ h1 {
   text-transform: uppercase;
   margin: 1rem;
   font-family: "Big Shoulders Display", Sans-Serif;
+}
+
+.headerGlow {
+  animation: headerGlow 2s ease-in-out infinite alternate;
+}
+
+@keyframes headerGlow {
+  from {
+    text-shadow: 0 0 0.625rem #ffffff, 0 0 1.25rem #fff, 0 0 1.875rem #e60073,
+      0 0 2.5rem #e60073, 0 0 3.125rem #e60073, 0 0 3.75rem #e60073,
+      0 0 4.375rem #e60073;
+  }
+  to {
+    text-shadow: 0 0 1.25rem #ffffff, 0 0 1.875rem #fff800, 0 0 2.5rem #fff800,
+      0 0 3.125rem #fff800, 0 0 3.75rem #fff800, 0 0 4.375rem #fff800,
+      0 0 5rem #fff800;
+  }
 }
 
 .headerSecondColor {
