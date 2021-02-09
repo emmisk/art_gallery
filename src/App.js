@@ -26,7 +26,7 @@ function App() {
       {show === "info" && <Info />}
       {show === "gallery" && <Gallery />}
       {show === "contact" && <Contact />}
-      <img src={MyImg} alt="me"/>
+      <img className="profileImage" src={MyImg} alt="me"/>
     </div>
   )
 }
