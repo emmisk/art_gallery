@@ -18,6 +18,7 @@ img {
 }
 
 .profileImage {
+  margin-top: 3rem;
   width: 70%;
   height: auto;
 }
